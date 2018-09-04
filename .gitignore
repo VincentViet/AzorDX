@@ -1,0 +1,9 @@
+
+.vscode/
+.config
+cmake build/
+bin/
+dll/
+lib/
+resources/
+CMakeLists.txt
