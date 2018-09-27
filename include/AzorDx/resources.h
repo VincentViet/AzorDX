@@ -21,15 +21,12 @@
 #define AZOR_FW_BLACK 900
 
 namespace azordx {
-
 class Resources {
  public:
   Resources() = delete;
   ~Resources() = delete;
 
  public:
-  static void initialize();
-  static void clean_up();
   static D3DXVECTOR2 get_texture_size(const std::string& name);
   static void load_texture_from_file(const std::string& file_path,
                                      const std::string& name);
@@ -40,7 +37,6 @@ class Resources {
   static void load_font(const std::string& font_name, const std::string& alias,
                         int font_size, int font_weight, bool italic = false);
 };
-
 }  // namespace azordx
 
 #endif  // AZORDX_RESOURCES_H

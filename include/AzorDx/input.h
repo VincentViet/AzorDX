@@ -167,7 +167,6 @@
 #include <d3dx9math.h>
 
 namespace azordx {
-
 class Input {
  private:
   /* data */
@@ -176,11 +175,9 @@ class Input {
   ~Input() = delete;
 
  public:
-  static void initialize();
-  static void clean_up();
+  static D3DXVECTOR2 mouse_position;
   static bool is_key_pressed(int keycode);
   static bool is_mouse_bt_pressed(int btn_code);
-  static D3DXVECTOR2 mouse_pos();
   static float mouse_x();
   static float mouse_y();
   static float mouse_z();

@@ -1,9 +1,4 @@
 
-.vscode/
-.config
-cmake build/
+.idea/
+cmake-build-debug/
 bin/
-dll/
-lib/
-resources/
-CMakeLists.txt

@@ -9,7 +9,6 @@ class Timer {
 
  public:
   static float delta_time;
-  static void initialize();
   static void pause();
   static void resume();
 };
